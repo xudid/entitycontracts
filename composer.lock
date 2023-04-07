@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09e7fac73f14c9ff5ca963d86d7166ae",
-    "packages": [],
+    "content-hash": "ba4e4a593e0e879b4e368219507bfa9b",
+    "packages": [
+        {
+            "name": "xudid/querybuildercontracts",
+            "version": "0.0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xudid/querybuidercontracts.git",
+                "reference": "347acf92df2e04587e578346ae5dd200fff890c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xudid/querybuidercontracts/zipball/347acf92df2e04587e578346ae5dd200fff890c4",
+                "reference": "347acf92df2e04587e578346ae5dd200fff890c4",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Xudid\\QueryBuilderContracts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Didier Moindreau",
+                    "email": "dmoindreau@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/xudid/querybuidercontracts/issues",
+                "source": "https://github.com/xudid/querybuidercontracts/tree/0.0.0.3"
+            },
+            "time": "2023-04-06T20:11:02+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "myclabs/deep-copy",
