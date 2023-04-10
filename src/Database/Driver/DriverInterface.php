@@ -2,9 +2,18 @@
 
 namespace Xudid\EntityContracts\Database\Driver;
 
+
+use DriverException;
+use Xudid\QueryBuilderContracts\Request\RequestInterface;
+
 interface DriverInterface
 {
-	public function __construct(DataSourceInterface $dataSource);
-	public function getConnectionUrl() : string;
-	public function getConnexion();
+    /**
+     * @throws DriverException
+     */
+    public function query(string $request);
+    public function bind(RequestInterface $request);
+    public function execute();
+    public function fetch(): mixed;
+    public function fetchAll(): array;
 }
