@@ -2,7 +2,6 @@
 
 namespace App\DB;
 
-
 use DriverException;
 use Xudid\QueryBuilderContracts\Request\RequestInterface;
 
