@@ -15,5 +15,5 @@ interface AssociationInterface
     public function getTable(): string;
     public function setFromModel(string $holdingClassName): static;
     public function setToModel(string $outClassName): static;
-    public function setTable(): string;
+    public function setTable(string $table): static;
 }

@@ -11,7 +11,7 @@ interface ModelInterface
     public function getId(): int;
     public function setId($id): static;
     public static function hydrate(array $datas): static;
-    public static function model(string $model): static;
+    public static function model(string $model): ModelInterface;
     public static function getClass(): string;
     public static function getShortClass(): string;
     public static function getTable(): string;
