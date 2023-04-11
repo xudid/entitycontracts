@@ -1,6 +1,6 @@
 <?php
 
-namespace Xudid\EntityContracts\Executer;
+namespace Xudid\EntityContracts\Request;
 
 use Xudid\EntityContracts\Database\Driver\DriverInterface;
 use Xudid\QueryBuilderContracts\Request\RequestInterface;

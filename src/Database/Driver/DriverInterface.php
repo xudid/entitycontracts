@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DB;
+namespace Xudid\EntityContracts\Database\Driver;
 
 use DriverException;
 use Xudid\QueryBuilderContracts\Request\RequestInterface;

@@ -2,7 +2,7 @@
 
 namespace Xudid\EntityContracts\Model;
 
-use Xudid\EntityContracts\Executer\ExecuterInterface;
+use Xudid\EntityContracts\Request\ExecuterInterface;
 use Xudid\QueryBuilderContracts\QueryBuilderInterface;
 
 interface ManagerInterface
