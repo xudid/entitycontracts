@@ -7,6 +7,8 @@ use Xudid\QueryBuilderContracts\Request\RequestInterface;
 
 interface DriverInterface
 {
+    const FETCH_ASSOC = 1;
+    const FETCH_CLASS = 2;
     /**
      * @throws DriverException
      */
